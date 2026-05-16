@@ -35,11 +35,11 @@
 - Thử cách tải khác thông qua `./adb.exe shell`, sau đó đẩy thẳng file độc vào ổ nhớ máy nạn nhân
 <img width="1087" height="137" alt="image" src="https://github.com/user-attachments/assets/521cfad8-c829-4ba3-9ef8-e815b22eea10" />
 
+- Click vào file để install nhưng kết quả cài đặt thất bại, dù đã spam nút install rất nhiều lần, đều bị thiết bị từ chối.
 <img width="691" height="824" alt="image" src="https://github.com/user-attachments/assets/ced82fca-721d-40a3-b4bf-3dd859204503" />
 
-- Click vào file để install nhưng kết quả cài đặt thất bại, dù đã spam nút install rất nhiều lần, đều bị thiết bị từ chối.
 - Lý do là các phiên bản từ Android 7 trở đi đã giới thiệu các cơ chế bảo mật nghiêm ngặt hơn so với các phiên bản cũ, đặc biệt liên quan đến quyền truy cập tệp và nguồn gốc của ứng dụng. Vì file apk được biên dịch với sdk version quá thấp, khiến android 7 coi là không an toàn. Đặc biệt Từ Android 7.0, việc chia sẻ file (APK) thông qua các URL file:// giữa các ứng dụng được coi là không an toàn và bị chặn. Mặc dù tải về thành công nhưng sẽ không được phép install vào thiết bị.
 
 ## Kết quả
-Chi tiết cấu hình, thực hiện triển khai và kết quả được trình bày chi tiết tại video trên youtube: [(youtube) Khai thác truy cập từ xa...](https://youtu.be/IZN7VGSTvVc?si=hscJuLFhCV5BEoPV)
+Chi tiết cấu hình, thực hiện triển khai và kết quả được trình bày ở video: [(youtube) Khai thác truy cập...](https://youtu.be/IZN7VGSTvVc?si=hscJuLFhCV5BEoPV)
 

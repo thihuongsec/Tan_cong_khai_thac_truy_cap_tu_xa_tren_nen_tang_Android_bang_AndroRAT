@@ -40,6 +40,6 @@
 
 - Lý do là các phiên bản từ Android 7 trở đi đã giới thiệu các cơ chế bảo mật nghiêm ngặt hơn so với các phiên bản cũ, đặc biệt liên quan đến quyền truy cập tệp và nguồn gốc của ứng dụng. Vì file apk được biên dịch với sdk version quá thấp, khiến android 7 coi là không an toàn. Đặc biệt Từ Android 7.0, việc chia sẻ file (APK) thông qua các URL file:// giữa các ứng dụng được coi là không an toàn và bị chặn. Mặc dù tải về thành công nhưng sẽ không được phép install vào thiết bị.
 
-## Kết quả
+## Kết luận
 Chi tiết cấu hình, thực hiện triển khai và kết quả được trình bày ở video: [(youtube) Khai thác truy cập...](https://youtu.be/IZN7VGSTvVc?si=hscJuLFhCV5BEoPV)
 
